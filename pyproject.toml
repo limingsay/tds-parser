@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tds-parser"
+version = "0.1.0"
+description = "Extract structured property tables from plastics TDS (technical data sheet) documents."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "limingsay" }]
+keywords = ["plastics", "tds", "pdf", "materials", "chemistry", "cli"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Scientific/Engineering :: Chemistry",
+  "Environment :: Console",
+]
+dependencies = []
+
+[project.optional-dependencies]
+pdf = ["pypdf>=3.0"]
+dev = ["pytest>=7"]
+
+[project.scripts]
+tds-parse = "tds_parser.cli:main"
+
+[tool.setuptools]
+packages = ["tds_parser"]

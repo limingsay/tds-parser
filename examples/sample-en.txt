@@ -1,0 +1,10 @@
+Technical Data Sheet — Polybutylene Terephthalate (PBT)
+Property                        Value      Unit       Method
+Density                         1.31       g/cm3      ISO 1183
+Melt Flow Rate                  15         g/10 min   ISO 1133
+Tensile Strength                55         MPa        ISO 527-2
+Elongation at Break             30         %          ISO 527-2
+Flexural Modulus                2500       MPa        ISO 178
+Izod Notched Impact             5          kJ/m2      ISO 180
+Heat Deflection Temperature     200        °C         ISO 75-2
+Water Absorption                0.08       %          ISO 62
